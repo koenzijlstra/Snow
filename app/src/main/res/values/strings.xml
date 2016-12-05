@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snow</string>
+    <string name="instructions">Search for a city or town below to get the snow forecast from the nearest ski resort</string>
+    <string name="city">City</string>
+    <string name="search">Search</string>
+    <string name="saved">See saved spots</string>
+    <string name="add">Save this spot</string>
+    <string name="title">Title App</string>
+    <string name="nearest">"Nearest Spot"</string>
+</resources>
