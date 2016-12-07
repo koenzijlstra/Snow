@@ -17,7 +17,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button5" />
+        android:id="@+id/button5"
+        android:onClick="seeSpots"/>
 
     <Button
         android:text="@string/add"
@@ -29,22 +30,21 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="@string/nearest"
-        android:textSize="30sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp" />
-
-    <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
-        android:id="@+id/textView4"
+        android:id="@+id/town"
         android:layout_below="@+id/textView3"
         android:layout_toLeftOf="@+id/button5"
         android:layout_toStartOf="@+id/button5" />
+
+    <TextView
+        android:text="@string/nearest"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/query"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

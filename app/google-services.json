@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1041029086834",
+    "firebase_url": "https://snow-1579b.firebaseio.com",
+    "project_id": "snow-1579b",
+    "storage_bucket": "snow-1579b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041029086834:android:a5c2e30905388160",
+        "android_client_info": {
+          "package_name": "com.example.koen.snow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041029086834-h9cr7hpbn8dj88phahcpuvcogt7asetg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.koen.snow",
+            "certificate_hash": "07D29334768EFA94DA5FD4444C81A98DBC789815"
+          }
+        },
+        {
+          "client_id": "1041029086834-hqs1ppnhh4sk5eshgie9tag9iqv7ckid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVSMe8kM1gg064dEW28qZj7UyDoCB4N0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041029086834-hqs1ppnhh4sk5eshgie9tag9iqv7ckid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
