@@ -25,7 +25,7 @@ public class Httphelper {
 //    final static String url3 = "&format=json";
 
     // nu voor gemak devault value van 1 bij num of days
-    final static String url4 = "&num_of_days=2&format=json";
+    final static String url4 = "&num_of_days=2&date=tomorrow&format=json";
 
     // http://api.worldweatheronline.com/free/v2/ski.ashx?key=dd08bcba2d0c46c2830153816160512&q=gerlos&num_of_days=2&format=json
 
