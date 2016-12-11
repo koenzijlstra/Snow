@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         else{
             input = input.replace(" ", "+");
             new SnowAsynctasks(MainActivity.this, input).execute();
-            // tod0: new resultasynctasks(mainactivity.this, input).execute();
+
         }
     }
 

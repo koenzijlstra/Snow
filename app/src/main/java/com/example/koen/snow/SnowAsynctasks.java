@@ -3,7 +3,6 @@ package com.example.koen.snow;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -118,7 +117,7 @@ public class SnowAsynctasks extends AsyncTask {
     protected void onPostExecute(Object o) {
         super.onPostExecute(o);
 
-        Intent gotoinfo = new Intent(context, Snowheight_activity.class);
+        Intent gotoinfo = new Intent(context, Predictions_activity.class);
         gotoinfo.putExtra("city", city);
         gotoinfo.putExtra("date", datetomorrow);
         gotoinfo.putExtra("temp12", temp12);

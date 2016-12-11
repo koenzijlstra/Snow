@@ -8,17 +8,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.koen.snow.Snowheight_activity">
+    tools:context="com.example.koen.snow.Predictions_activity"
+    android:background="@color/darkblue">
 
     <Button
         android:text="@string/saved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/button5"
-        android:onClick="seeSpots"/>
+        android:onClick="seeSpots"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#4F90A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 
     <Button
         android:text="@string/add"
@@ -26,7 +37,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/button6"
         android:layout_alignParentBottom="true"
-         />
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#4F90A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 
     <TextView
         android:text="@string/nearest"
@@ -36,7 +56,8 @@
         android:id="@+id/query"
         android:layout_marginTop="22dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="TextView"
@@ -44,7 +65,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/date"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -54,27 +76,31 @@
         android:layout_marginTop="14dp"
         android:id="@+id/grid"
         android:layout_below="@+id/textView16"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        >
 
         <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/nul"
-            android:paddingRight="30dp"/>
+            android:paddingRight="30dp"
+            android:textColor="@color/white"/>
 
         <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/twaalf"
-            android:paddingLeft="30dp"/>
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"/>
         <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/drie"
-            android:paddingTop="7sp"/>
+            android:paddingTop="7sp"
+            android:textColor="@color/white"/>
 
         <TextView
             android:text="TextView"
@@ -84,7 +110,8 @@
             android:layout_row="2"
             android:layout_column="0"
             android:paddingTop="7sp"
-            android:paddingRight="30dp"/>
+            android:paddingRight="30dp"
+            android:textColor="@color/white"/>
         <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
@@ -92,7 +119,8 @@
             android:id="@+id/achtien"
             android:layout_row="2"
             android:layout_column="1"
-            android:paddingLeft="30dp"/>
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"/>
 
         <TextView
             android:text="TextView"
@@ -102,7 +130,8 @@
             android:layout_row="3"
             android:layout_column="0"
             android:paddingTop="7sp"
-            android:paddingRight="30dp"/>
+            android:paddingRight="30dp"
+            android:textColor="@color/white"/>
         <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
@@ -110,7 +139,8 @@
             android:id="@+id/twentyone"
             android:layout_row="3"
             android:layout_column="1"
-            android:paddingLeft="30dp"/>
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"/>
 
         <TextView
             android:text="TextView"
@@ -119,7 +149,8 @@
             android:id="@+id/vijftien"
             android:layout_row="1"
             android:layout_column="1"
-            android:paddingLeft="30dp"/>
+            android:paddingLeft="30dp"
+            android:textColor="@color/white"/>
 
     </GridLayout>
 
@@ -130,7 +161,8 @@
         android:id="@+id/sun"
         android:textSize="16sp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"  />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="@string/chance_of_snowfall"
@@ -140,7 +172,8 @@
         android:layout_marginTop="33dp"
         android:textSize="20sp"
         android:layout_below="@+id/sun"
-        android:layout_centerHorizontal="true"  />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="@string/temp_at_1200_5_c"
@@ -149,7 +182,8 @@
         android:id="@+id/temp12"
         android:textSize="16sp"
         android:layout_above="@+id/sun"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="@string/min_temp_10_c"
@@ -159,7 +193,8 @@
         android:textSize="16sp"
         android:layout_marginBottom="10dp"
         android:layout_above="@+id/temp12"
-        android:layout_centerHorizontal="true"  />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
     <TextView
         android:text="@string/max_temp_10_c"
@@ -168,6 +203,7 @@
         android:id="@+id/max"
         android:textSize="16sp"
         android:layout_above="@+id/min"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
 
 </RelativeLayout>

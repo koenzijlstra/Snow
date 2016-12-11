@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class Snowheight_activity extends AppCompatActivity {
+public class Predictions_activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +31,6 @@ public class Snowheight_activity extends AppCompatActivity {
         String fifteen = extras.getString("15");
         String eighteen = extras.getString("18");
         String twentyone = extras.getString("21");
-
-
 
         // set name of searched city
         TextView title = (TextView) findViewById(R.id.query);
@@ -120,20 +118,16 @@ public class Snowheight_activity extends AppCompatActivity {
         TextView snow21 = (TextView) findViewById(R.id.twentyone);
         String snow211 = "21:00 : ";
         String snow212 = "%";
-        String full21 = snow211 + twelve + snow212;
+        String full21 = snow211 + twentyone + snow212;
         snow21.setText(full21);
-
-
-
-
-
-
 
     }
 
     public void seeSpots (View view){
+        Bundle extras = getIntent().getExtras();
+        String city = extras.getString("city");
         Intent Spots = new Intent(this, Spots_activity.class);
+        Spots.putExtra("city", city);
         startActivity(Spots);
     }
-
 }
